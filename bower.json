@@ -1,0 +1,23 @@
+{
+  "name": "ProjectZ",
+  "version": "0.0.0",
+  "authors": [
+    "Niclas Sahlin <niclas@niclassahlin.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "durandal": "~2.0.1",
+    "sizzle": "1.10.16",
+    "font-awesome": "~4.0.3"
+  }
+}

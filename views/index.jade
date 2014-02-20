@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/vendor/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/vendor/font-awesome/css/font-awesome.min.css')
+    link(rel='stylesheet', href='/stylesheets/application.css')
+  body
+    #applicationHost
+      .splash
+        .message Project Z
+        i.fa.fa-spinner.fa-2x.fa-spin.active
+
+    script(src='/vendor/requirejs/require.js', data-main='/javascripts/main.js')
